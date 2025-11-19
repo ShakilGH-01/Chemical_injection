@@ -172,8 +172,8 @@ def update_graph(n):
     alert_status = 'normal'
     alert_message = ""
 
-    threshold_warning = 8.2
-    threshold_critical = 8.4
+    threshold_warning = 7.5
+    threshold_critical = 8.5
 
     traces = [
         go.Scatter(x=times, y=ph_values, mode='lines', name='pH', line=dict(color='blue')),
